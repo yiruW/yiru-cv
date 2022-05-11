@@ -4,7 +4,7 @@ import work, {education} from "../data";
 import {MdOutlineWork, MdOutlineSchool} from "react-icons/md";
 function Work(){
     return (
-        <div className="Work p-5">
+        <div id="Work" className="Work p-5">
             <div className="module-heading fs-2 mb-5">
                 <span>{"Work Experience & Education"}</span>
             </div>
@@ -24,13 +24,14 @@ function Work(){
                     <p>{item.skills}</p>
                 </VerticalTimelineElement>
             )}
+            <div id="Education">
             {education().map((item) =>
                 <VerticalTimelineElement
                 key={item.key}
                 className="vertical-timeline-element--education"
                 date={item.duration}
                 contentStyle={{fontFamily: 'Inria Sans'}}
-                iconStyle={{ background: 'rgb(235, 141, 141)', color: '#fff'}}
+                iconStyle={{ background: 'rgb(126, 196, 157)', color: '#fff'}}
                 icon={<MdOutlineSchool />}
                 >
                     <h3 className="vertical-timeline-element-title">{item.field}</h3>
@@ -38,6 +39,7 @@ function Work(){
                     <p>{item.details}</p>
                 </VerticalTimelineElement>
             )}
+            </div>
             </VerticalTimeline>
         </div>
     );

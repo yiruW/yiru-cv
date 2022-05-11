@@ -31,11 +31,10 @@ function education(){
 }
 function project(){
     return ([
-        {key: 1, field: "This resume website", breif: "", skills:["JavaScript","React"], source:"https://github.com/yiruW/yiru-cv"},
-        {key: 2, field: "Microservices Cloud Platform", breif: "", skills:["SpringCloud", "SpringBoot"]},
-        {key: 3, field: "Issue tracking webpage", breif: "", skills:["Java", "JavaScript", "SpringBoot", "Vue", "AmazonSaas"]},
-        {key: 4, field: "Real-time OS", breif: "This project is a Linux system that handle instructions between kernel mode and user mode. The system will handle system call or any instructions, and execute memory allocations", skills:["C"], source:"https://github.com/yiruW/realTimeOS"},
-        {key: 5, field: "Product Website", breif: "", skills:["JavaScript", "HTML", "CSS", "PS"], source:"https://github.com/yiruW/appLeaflet"}
+        {key: 0, field: "This resume webpage", breif: "This webpage is built with React and Bootstrap, finished in May 2022 for applying jobs.", skills:["JavaScript","React"], source:"https://github.com/yiruW/yiru-cv"},
+        {key: 2, field: "Issue tracking webpage", breif: "The issue tracking webpage is similar to Jira, but only accept bug reports from customers who subscribe products. Mails will automatically sent to customers if new build is released, and parsed to create new bug tickets when received from users.", skills:["Java", "JavaScript", "SpringBoot", "Vue", "AmazonSaas"]},
+        {key: 3, field: "Real-time OS", breif: "This project is a Linux system that handle instructions between kernel mode and user mode. The system will handle system call or any instructions, and execute memory allocations.", skills:["C"], source:"https://github.com/yiruW/realTimeOS"},
+        {key: 4, field: "Product Website", breif: "A simple webpage display a product introduction.", skills:["JavaScript", "HTML", "CSS", "PS"], source:"https://github.com/yiruW/appLeaflet"}
     ])
 }
 export default work;

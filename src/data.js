@@ -17,7 +17,7 @@ const work = [
 ]
 
 function brief(){
-    return "Skilled in Java, JavaScript, SpringBoot, Vue, React. Worked as web developer for 3 co-op terms. Love to learn new staff and make contributions :)"; 
+    return "Skilled in Java, JavaScript, SpringBoot, Vue, React. Worked as web developer for 3 co-op terms. Love to learn new stuff and make contributions :)"; 
 }
 function education(){
     return ([

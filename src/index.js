@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import $ from 'jquery';
+import {BrowserRouter,Route} from "react-router-dom";
+import './styles.css';
 
 import Nav from './component/Nav';
 import Home from "./component/Home";
@@ -10,11 +11,11 @@ import Contact from "./component/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
+  <BrowserRouter>
     <Nav/>
     <Home/>
     <Work/>
     <Project/>
     <Contact/>
-  </div>
+  </BrowserRouter>
 );

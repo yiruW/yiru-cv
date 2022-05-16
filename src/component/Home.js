@@ -9,10 +9,7 @@ function Home() {
                 <span>{"University of Waterloo"}</span><br/>
                 <span>{"Computer Engineering"}<br/>{"(Sep 2018 - present)"}</span>
             </div>
-            <picture>
-                <source srcSet={require('../yiruImage.png')} media="(max-width: 400px)"/>
-            </picture>
-            <div className="Home-image col-3">
+            <div className="Home-image">
                 <img src={require('../yiruImage.png')} alt="yiru"/>
             </div>
             <div className="Home-brief col-3">

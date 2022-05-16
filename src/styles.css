@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -9,9 +16,6 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #FEFDF9;
-}
-nav .nav-link{
-    color: #000 !important;
 }
 .Nav {
     padding: 1vh 10vw 0 10vw;
@@ -31,6 +35,16 @@ nav .nav-link{
     font-family: 'Inter', sans-serif;
     font-style: italic;
 }
+.Nav-link{
+    color: #000;
+    padding-right: 3vw;
+    margin-top: 6px;
+}
+.Nav-link:hover{
+    color: #04543e;
+    text-shadow: 1px 1px 1px #daebe1;
+    font-weight: 600;
+}
 .icon-link{
     width: 20px;
     height: 20px; 
@@ -43,8 +57,9 @@ nav .nav-link{
 .Home{
     margin-top: 10vh;
     height: 80vh;
+    min-height: 450px;
     padding: 0 10vw 1vh 10vw;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .Home-introduce{
     font-family: 'Inria Sans', sans-serif;
@@ -57,24 +72,16 @@ nav .nav-link{
 .Home-education{
     font-family: 'Inria Serif', serif;
     position: relative;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.2vh;
     z-index: 5;
 }
 .Home-image{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.Home-image img{
-    width:  50vh;
-    height: auto;
+    text-align: center;
 }
 .Home-brief{
-    height: 30vh;
-    position: absolute;
-    top: 70vh;
-    left: 80%;
-    margin-left: -12%;
+    position: relative;
+    margin-left: 60vw;
+    margin-top: -10vh;
     font-family: 'Inria Sans', sans-serif;
 }
 .Home-brief span{
@@ -126,7 +133,6 @@ nav .nav-link{
 }
 .Project-source{
     color: #000;
-    text-decoration: none;
     border: #000 1px dotted;
     padding: 4px 10px;
     border-radius: 8px;
@@ -149,7 +155,6 @@ nav .nav-link{
     justify-content: center;
 }
 .Contact-method{
-    text-decoration: none;
     color: #04543e;
     padding: 5px;
 }
@@ -183,13 +188,9 @@ nav .nav-link{
     .Nav-bar{
         font-size: 10px;
     }
-    .Home-image{
-        margin-left: -200px;
-        margin-top: -200px;
-    }
     .Home-image img{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .Contact-header{
         font-size: 20px;
@@ -201,13 +202,13 @@ nav .nav-link{
 }
 @media (min-width: 768px) and (max-width: 1400px){
     .Home-introduce{
-        top: 10vh;
+        top: 5vh;
         left: 2vw;
         font-size: 50px;
         line-height: 60px;
     }
     .Home-education{
-        top: 10vh;
+        top: 5vh;
         left: 2vw;
         font-size: 15px;
     }
@@ -215,8 +216,7 @@ nav .nav-link{
         font-size: 15px;
     }
     .Home-image{
-        margin-left: -250px;
-        margin-top: -250px;
+        margin-top: -10vh;
     }
     .Home-image img{
         width: 500px;
@@ -231,12 +231,10 @@ nav .nav-link{
 }
 @media (min-width: 1400px){
     .Home-introduce{
-        top: 13vh;
         left: 2vw;
         font-size: 60px;
     }
     .Home-education{
-        top: 13vh;
         left: 2vw;
         font-size: 18px;
     }
@@ -244,17 +242,16 @@ nav .nav-link{
         font-size: 18px;
     }
     .Home-image{
-        margin-left: -250px;
-        margin-top: -250px;
+        margin-top: -20vh;
     }
     .Home-image img{
         width: 500px;
         height: 500px;
     }
     .Contact-header{
-        font-size: 45px;
+        font-size: 35px;
     }
     .Contact-subHeader{ 
-        font-size: 25px;
+        font-size: 20px;
     }
 }

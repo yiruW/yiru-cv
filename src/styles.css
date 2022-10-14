@@ -43,7 +43,7 @@ body{
 .Nav-link:hover{
     color: #04543e;
     text-shadow: 1px 1px 1px #daebe1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .icon-link{
     width: 20px;

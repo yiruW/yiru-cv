@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/yiru-cv/static/css/main.9651ee65.css",
-    "main.js": "/yiru-cv/static/js/main.11c08972.js",
+    "main.css": "/yiru-cv/static/css/main.7243fa9d.css",
+    "main.js": "/yiru-cv/static/js/main.2690a80a.js",
     "static/media/yiruImage.png": "/yiru-cv/static/media/yiruImage.99c29c68cd2490d0260d.png",
     "index.html": "/yiru-cv/index.html",
-    "main.9651ee65.css.map": "/yiru-cv/static/css/main.9651ee65.css.map",
-    "main.11c08972.js.map": "/yiru-cv/static/js/main.11c08972.js.map"
+    "main.7243fa9d.css.map": "/yiru-cv/static/css/main.7243fa9d.css.map",
+    "main.2690a80a.js.map": "/yiru-cv/static/js/main.2690a80a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9651ee65.css",
-    "static/js/main.11c08972.js"
+    "static/css/main.7243fa9d.css",
+    "static/js/main.2690a80a.js"
   ]
 }

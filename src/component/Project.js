@@ -13,9 +13,9 @@ function Project(){
             <div className="module-heading fs-2 mb-2">
                 <span>{"Projects"}</span>
             </div>
-            <div className="container">
+            <div className="Project-container">
                 {project().map((item, index) =>
-                    <div key={item.key}>
+                    <div key={item.key} className="Project-item">
                         <div className="Project-tag mb-3">
                             {item.skills.map((skill, index) => 
                                 <div key={index}>{skill}</div>

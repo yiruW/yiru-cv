@@ -22,6 +22,7 @@ function Work(){
                     <h3 className="vertical-timeline-element-title">{item.title}</h3>
                     <h4 className="vertical-timeline-element-subtitle">{item.company}</h4>
                     <p>{item.skills}</p>
+                    <p>{item.details}</p>
                 </VerticalTimelineElement>
             )}
             <div id="Education">

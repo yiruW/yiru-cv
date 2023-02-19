@@ -55,33 +55,36 @@ body{
     margin-left: 10px;
 }
 .Home{
-    margin-top: 10vh;
-    height: 80vh;
-    min-height: 450px;
-    padding: 0 10vw 1vh 10vw;
-    overflow: hidden !important;
+    margin: 10vh auto;
 }
 .Home-introduce{
     font-family: 'Inria Sans', sans-serif;
     font-style: italic;
     font-weight: 400;
     letter-spacing: 0.1em;
-    position: relative ;
+    line-height: 60px;
     z-index: 4;
+    margin: 10px 10px;
+    font-size: 50px;
 }
 .Home-education{
     font-family: 'Inria Serif', serif;
-    position: relative;
     letter-spacing: 0.2vh;
     z-index: 5;
+    margin: 0 10px;
+    font-size: 18px;
 }
 .Home-image{
     text-align: center;
+    margin: auto;
+}
+.Home-image img{
+    width: 100%;
+    margin-top: 50px;
 }
 .Home-brief{
-    position: relative;
-    margin-left: 60vw;
-    margin-top: -10vh;
+    margin-left: auto; 
+    margin-right: 0;
     font-family: 'Inria Sans', sans-serif;
 }
 .Home-brief span{
@@ -91,9 +94,11 @@ body{
     text-align: center;
     letter-spacing: 0.1em;
     margin-bottom: 5%;
+    font-size: 18px;
 }
 .Home-brief p{
    font-size: 0.8rem; 
+   font-size: 15px;
 }
 .Work{
     background-color: #e6fff1;
@@ -104,12 +109,12 @@ body{
     display: block;
     color: #04543e;
 }
-.container {
+.Project-container {
     display:flex;
     flex-wrap:wrap;
   }
   
-.container > div {
+.Project-item {
     border: 2px #04543e dotted;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
@@ -174,7 +179,7 @@ body{
     width: 50px;
     height: 50px;
 }
-@media (min-width: 0px) and (max-width: 768px){
+/* @media (min-width: 0px) and (max-width: 768px){
     .Home-introduce{
         top: 3vh;
         left: 1vw;
@@ -254,4 +259,4 @@ body{
     .Contact-subHeader{ 
         font-size: 20px;
     }
-}
+} */
